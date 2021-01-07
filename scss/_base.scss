@@ -1,0 +1,15 @@
+// COLORS
+
+:root {
+  --color-header: #e89e1d;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url('../Fonts/FibraOne-Regular.ttf');
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'myFont', 'Times New Roman', Times, serif;
+}

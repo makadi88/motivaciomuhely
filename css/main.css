@@ -1,0 +1,51 @@
+:root {
+  --color-header: #e89e1d;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url("../Fonts/FibraOne-Regular.ttf");
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'myFont', 'Times New Roman', Times, serif;
+}
+
+.header {
+  background-color: var(--color-header);
+  height: 80vh;
+  position: relative;
+}
+
+.nav {
+  text-align: center;
+}
+
+.logo-box {
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 30%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav_link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav {
+  padding-top: 1rem;
+}

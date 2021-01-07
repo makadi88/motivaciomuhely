@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--color-header);
+  height: 80vh;
+  position: relative;
+}
+
+.nav {
+  text-align: center;
+}
+
+.logo-box {
+  background-image: url('../img/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 30%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
