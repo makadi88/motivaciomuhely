@@ -1,9 +1,12 @@
+//HEADER
+
 .header {
   background-color: var(--color-secondary);
   height: 70vh;
   position: relative;
 }
 
+//NAVBAR
 .nav {
   text-align: center;
 }
@@ -32,9 +35,52 @@
   margin-right: auto;
 }
 
+//MENUS
+
 .menus {
   height: 30vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+//MENTORING SECTION
+
+.container-first {
+  position: relative;
+  background-color: var(--color-primary);
+  height: 70vh;
+  overflow: hidden;
+}
+
+.svg_container__first {
+  position: absolute;
+  width: 55%;
+  bottom: 15%;
+  right: -10%;
+}
+
+.main-header {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.main-text {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  max-width: 30%;
+}
+
+//MEDIA QUERYS
+
+@media all and (max-width: 876px) {
+  .menus {
+    flex-direction: column;
+  }
+  .svg-container {
+    bottom: -1rem;
+    max-width: 60%;
+  }
 }

@@ -3,21 +3,25 @@
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  padding-right: 1rem;
+  padding: 2%;
   font-size: 1.4rem;
 }
 
 .nav {
   padding-top: 1rem;
+  font-family: 'FibraOne-Heavy', sans-serif;
+  font-weight: bold;
 }
 
 .button {
-  padding: 1.7rem;
+  padding: 1.5%;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.7rem;
+  font-family: 'FibraOne-Heavy', sans-serif;
+  font-weight: bold;
 }
 
 .button__first {
@@ -34,4 +38,17 @@
 
 .button__fourth {
   background-color: var(--color-fourth);
+}
+
+.main-header {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'FibraOne-Heavy', sans-serif;
 }

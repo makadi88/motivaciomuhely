@@ -16,11 +16,19 @@
   src: url('../Fonts/FibraOne-RegularIt.ttf');
   font-family: 'FibraOne-Heavy';
   src: url('../Fonts/FibraOne-Heavy.ttf');
+  font-family: 'MyriadPro-Regular';
+  src: url('../Fonts/MyriadPro-Regular.otf');
 }
 
 //FONTS
 
 html {
   font-size: 62.5%;
-  font-family: 'FibraOne-Heavy', 'Times New Roman', Times, serif;
+  font-family: 'FibraOne-Regular', sans-serif;
+}
+
+//UTILITY CLASSES
+
+.padding-top {
+  padding-top: 1rem;
 }

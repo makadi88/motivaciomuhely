@@ -12,11 +12,17 @@
   src: url("../Fonts/FibraOne-RegularIt.ttf");
   font-family: 'FibraOne-Heavy';
   src: url("../Fonts/FibraOne-Heavy.ttf");
+  font-family: 'MyriadPro-Regular';
+  src: url("../Fonts/MyriadPro-Regular.otf");
 }
 
 html {
   font-size: 62.5%;
-  font-family: 'FibraOne-Heavy', 'Times New Roman', Times, serif;
+  font-family: 'FibraOne-Regular', sans-serif;
+}
+
+.padding-top {
+  padding-top: 1rem;
 }
 
 .header {
@@ -60,26 +66,67 @@ html {
   align-items: center;
 }
 
+.container-first {
+  position: relative;
+  background-color: var(--color-primary);
+  height: 70vh;
+  overflow: hidden;
+}
+
+.svg_container__first {
+  position: absolute;
+  width: 55%;
+  bottom: 15%;
+  right: -10%;
+}
+
+.main-header {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.main-text {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  max-width: 30%;
+}
+
+@media all and (max-width: 876px) {
+  .menus {
+    flex-direction: column;
+  }
+  .svg-container {
+    bottom: -1rem;
+    max-width: 60%;
+  }
+}
+
 .nav_link {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  padding-right: 1rem;
+  padding: 2%;
   font-size: 1.4rem;
 }
 
 .nav {
   padding-top: 1rem;
+  font-family: 'FibraOne-Heavy', sans-serif;
+  font-weight: bold;
 }
 
 .button {
-  padding: 1.7rem;
+  padding: 1.5%;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.7rem;
+  font-family: 'FibraOne-Heavy', sans-serif;
+  font-weight: bold;
 }
 
 .button__first {
@@ -96,4 +143,17 @@ html {
 
 .button__fourth {
   background-color: var(--color-fourth);
+}
+
+.main-header {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'FibraOne-Heavy', sans-serif;
 }
