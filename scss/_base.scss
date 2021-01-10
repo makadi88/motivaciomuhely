@@ -1,15 +1,26 @@
 // COLORS
 
 :root {
-  --color-header: #e89e1d;
+  --color-primary: #a74033;
+  --color-secondary: #f8ae1d;
+  --color-third: #1d96a7;
+  --color-fourth: #3a6795;
 }
 
+// COSTUM FONTS
+
 @font-face {
-  font-family: 'myFont';
+  font-family: 'FibraOne-Regular';
   src: url('../Fonts/FibraOne-Regular.ttf');
+  font-family: 'FibraOne-RegularIt';
+  src: url('../Fonts/FibraOne-RegularIt.ttf');
+  font-family: 'FibraOne-Heavy';
+  src: url('../Fonts/FibraOne-Heavy.ttf');
 }
+
+//FONTS
 
 html {
   font-size: 62.5%;
-  font-family: 'myFont', 'Times New Roman', Times, serif;
+  font-family: 'FibraOne-Heavy', 'Times New Roman', Times, serif;
 }
