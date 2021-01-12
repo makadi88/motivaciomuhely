@@ -1,9 +1,17 @@
 //HEADER
 
 .header {
-  background-color: var(--color-secondary);
   height: 70vh;
   position: relative;
+}
+
+.header-container {
+  background-color: var(--color-secondary);
+}
+
+.content-container {
+  max-width: 1980px;
+  margin: auto;
 }
 
 //NAVBAR
