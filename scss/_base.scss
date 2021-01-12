@@ -5,6 +5,8 @@
   --color-secondary: #f8ae1d;
   --color-third: #1d96a7;
   --color-fourth: #3a6795;
+  --color-footer: #dfe0e0;
+  --color-footer-text: #95979a;
 }
 
 // COSTUM FONTS
@@ -25,6 +27,7 @@
 html {
   font-size: 62.5%;
   font-family: 'FibraOne-Regular', sans-serif;
+  scroll-behavior: smooth;
 }
 
 //UTILITY CLASSES
