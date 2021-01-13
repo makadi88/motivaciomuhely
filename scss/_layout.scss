@@ -3,20 +3,45 @@
 .header {
   height: 70vh;
   position: relative;
+
+  &__about-us {
+    height: auto;
+  }
 }
 
 .header-container {
   background-color: var(--color-secondary);
+
+  &__about-us {
+    background-color: var(--color-header-subpage);
+  }
 }
 
 .content-container {
-  max-width: 1980px;
+  max-width: 1400px;
   margin: auto;
 }
 
 //NAVBAR
 .nav {
   text-align: center;
+}
+
+.home-logo {
+  display: block;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 5%;
+  grid-row-gap: 50%;
+  padding-top: 7%;
+}
+
+.grid-header {
+  grid-column-end: span 3;
 }
 
 .logo-box {
@@ -35,12 +60,21 @@
 .svg-container {
   position: absolute;
   max-width: 30%;
-  min-width: 30%;
   bottom: -3.5rem;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
+
+  &__about-us {
+    max-width: 150%;
+    bottom: -3.5rem;
+    top: 15%;
+  }
+
+  &__results {
+    max-width: 20%;
+  }
 }
 
 //MENUS
@@ -169,6 +203,15 @@
   width: 100%;
   bottom: -4%;
   left: 0%;
+}
+
+.rolunk {
+  position: relative;
+  height: 100vh;
+}
+
+.about-us-container {
+  background-color: var(--color-secondary);
 }
 
 //MEDIA QUERYS
