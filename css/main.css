@@ -25,6 +25,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .padding-top {
   padding-top: 1rem;
 }
@@ -138,18 +142,6 @@ footer {
   margin: auto;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  grid-column-gap: 5%;
-  grid-row-gap: 50%;
-  padding-top: 7%;
-}
-
-.grid-header {
-  grid-column-end: span 3;
-}
-
 .logo-box {
   background-image: url("../img/logo.png");
   background-size: contain;
@@ -171,16 +163,6 @@ footer {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.svg-container__about-us {
-  max-width: 150%;
-  bottom: -3.5rem;
-  top: 15%;
-}
-
-.svg-container__results {
-  max-width: 20%;
 }
 
 .menus {
@@ -314,6 +296,18 @@ footer {
 
 .about-us-container {
   background-color: var(--color-secondary);
+}
+
+.mission {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3vw;
+}
+
+.mission--statement {
+  grid-column: 1/-1;
 }
 
 @media all and (max-width: 876px) {
