@@ -71,3 +71,23 @@ footer {
   color: #fff;
   font-weight: bold;
 }
+
+.team--member__img {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.img__noemi {
+  background-image: url('../img/erdodi_noemi.jpg');
+}
+
+.img__jozsi {
+  background-image: url('../img/fejes_jozsef_balazs.jpg');
+}
+
+.img__marcsi {
+  background-image: url('../img/hadadi_maria.jpeg');
+}
