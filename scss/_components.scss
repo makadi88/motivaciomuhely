@@ -73,7 +73,7 @@ footer {
 }
 
 .team--member__img {
-  border-radius: 50%;
+  border-radius: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
@@ -90,4 +90,45 @@ footer {
 
 .img__marcsi {
   background-image: url('../img/hadadi_maria.jpeg');
+}
+
+.img__vali {
+  background-image: url('../img/kelemen_valeria.jpg');
+}
+
+.img__balazs {
+  background-image: url('../img/makadi_balazs.jpg');
+}
+
+.img__uszi {
+  background-image: url('../img/muiter_uszama.jpg');
+}
+
+.img__vivi {
+  background-image: url('../img/nagy_katalin_viven.jpg');
+}
+
+.img__anett {
+  background-image: url('../img/steigler_anett.jpg');
+}
+
+.img__szszilvi {
+  background-image: url('../img/szenasi_szilvia.jpg');
+}
+
+.img__zsofi {
+  background-image: url('../img/szlapak_zsofia.jpg');
+}
+
+.img__norbi {
+  background-image: url('../img/szucs_nobert.jpg');
+}
+
+.press_container {
+  background-color: var(--color-secondary);
+}
+
+.press__about-us {
+  color: #fff;
+  letter-spacing: 0.15rem;
 }

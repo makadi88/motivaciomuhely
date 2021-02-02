@@ -37,6 +37,14 @@ html {
   padding-bottom: 2rem;
 }
 
+.margin-bottom-5 {
+  margin-bottom: 5rem;
+}
+
+.margin-bottom-3 {
+  margin-bottom: 3rem;
+}
+
 .nav_link {
   cursor: pointer;
   text-decoration: none;
@@ -112,7 +120,7 @@ footer {
 }
 
 .team--member__img {
-  border-radius: 50%;
+  border-radius: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
@@ -129,6 +137,47 @@ footer {
 
 .img__marcsi {
   background-image: url("../img/hadadi_maria.jpeg");
+}
+
+.img__vali {
+  background-image: url("../img/kelemen_valeria.jpg");
+}
+
+.img__balazs {
+  background-image: url("../img/makadi_balazs.jpg");
+}
+
+.img__uszi {
+  background-image: url("../img/muiter_uszama.jpg");
+}
+
+.img__vivi {
+  background-image: url("../img/nagy_katalin_viven.jpg");
+}
+
+.img__anett {
+  background-image: url("../img/steigler_anett.jpg");
+}
+
+.img__szszilvi {
+  background-image: url("../img/szenasi_szilvia.jpg");
+}
+
+.img__zsofi {
+  background-image: url("../img/szlapak_zsofia.jpg");
+}
+
+.img__norbi {
+  background-image: url("../img/szucs_nobert.jpg");
+}
+
+.press_container {
+  background-color: var(--color-secondary);
+}
+
+.press__about-us {
+  color: #fff;
+  letter-spacing: 0.15rem;
 }
 
 .header {
@@ -356,9 +405,60 @@ footer {
   max-width: 90%;
 }
 
+.middle-divider {
+  transform: translateY(-50%);
+}
+
 .team {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 4rem;
+  grid-column-gap: 5rem;
+}
+
+.team--member {
+  max-width: 500px;
+  text-align: justify;
+  color: var(--color-footer-text);
+}
+
+.team--member__img {
+  margin: auto;
+}
+
+.press {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.press__about-us {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  display: grid;
+  align-content: space-around;
+  text-align: center;
+}
+
+.sun,
+.blue-doll {
+  grid-row: 2/3;
+  margin-bottom: -1rem;
+  align-self: end;
+}
+
+.sun {
+  grid-column: 1/2;
+}
+
+.blue-doll {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  max-height: 300px;
+}
+
+.bottom_divider {
+  transform: translateY(-40%);
 }
 
 @media all and (max-width: 876px) {
