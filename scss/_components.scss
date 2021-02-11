@@ -52,12 +52,24 @@
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
+
+  &__volunteer {
+    background-color: var(--color-fifth);
+    padding: 1rem 2.5rem;
+    text-align: center;
+    color: var(--color-volunteer);
+  }
 }
 
 .main-text {
   font-size: 1.5rem;
   color: #fff;
   font-family: 'FibraOne-Heavy', sans-serif;
+
+  &__volunteer {
+    line-height: 2rem;
+    color: var(--color-volunteer);
+  }
 }
 
 footer {
@@ -131,4 +143,16 @@ footer {
 .press__about-us {
   color: #fff;
   letter-spacing: 0.15rem;
+}
+
+.volunteering {
+  background-color: var(--color-primary);
+}
+
+.svg__hands {
+  max-height: 50vh;
+}
+
+.color-volunteer {
+  color: var(--color-volunteer);
 }
