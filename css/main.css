@@ -512,6 +512,7 @@ footer {
 
 .volunteering__col_1 {
   grid-column: 1/2;
+  margin: auto;
   max-width: 30vw;
   text-align: justify;
 }
